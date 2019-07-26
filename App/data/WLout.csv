@@ -1,0 +1,337 @@
+team_id,team,conference,wins,losses,w/l pct
+545,Pittsburgh,ACC,29,1,0.967
+674,Stanford,Pac-12,28,1,0.966
+77,BYU,WCC,27,1,0.964
+676,SFA,Southland,32,2,0.941
+183,Denver,Summit League,27,2,0.931
+90,Cal Poly,Big West,25,2,0.926
+301,Illinois,Big Ten,28,3,0.903
+128,UCF,AAC,27,3,0.9
+428,Minnesota,Big Ten,25,3,0.893
+169,Creighton,Big East,28,4,0.875
+334,Kentucky,SEC,24,4,0.857
+43,Austin Peay,OVC,27,5,0.844
+703,Texas,Big 12,20,4,0.833
+694,Tennessee,SEC,25,5,0.833
+813,Yale,Ivy League,19,4,0.826
+198,ETSU,SoCon,28,6,0.824
+670,Texas St.,Sun Belt,26,6,0.813
+387,Marquette,Big East,26,6,0.813
+1004,Central Ark.,Southland,26,6,0.813
+28755,FGCU,ASUN,26,6,0.813
+463,Nebraska,Big Ten,24,6,0.8
+235,Florida,SEC,24,6,0.8
+574,Rice,C-USA,24,6,0.8
+796,Wisconsin,Big Ten,22,6,0.786
+299,Illinois St.,MVC,25,7,0.781
+140,Cincinnati,AAC,25,7,0.781
+283,Hofstra,CAA,25,7,0.781
+563,Radford,Big South,21,6,0.778
+472,New Mexico St.,WAC,24,7,0.774
+1157,Kennesaw St.,ASUN,24,7,0.774
+434,Missouri,SEC,23,7,0.767
+156,Colorado St.,MWC,23,7,0.767
+539,Penn St.,Big Ten,23,7,0.767
+175,Dayton,Atlantic 10,23,7,0.767
+501,Northern Ariz.,Big Sky,26,8,0.765
+554,Princeton,Ivy League,19,6,0.76
+317,James Madison,CAA,22,7,0.759
+718,Tulane,AAC,25,8,0.758
+229,Fla. Atlantic,C-USA,21,7,0.75
+726,Navy,Patriot,23,8,0.742
+72,Bradley,MVC,23,8,0.742
+559,Purdue,Big Ten,23,8,0.742
+310,Iona,MAAC,20,7,0.741
+414,Miami (OH),MAC,22,8,0.733
+27,Appalachian St.,Sun Belt,22,8,0.733
+624,Sam Houston St.,Southland,22,8,0.733
+504,UNI,MVC,24,9,0.727
+541,Pepperdine,WCC,21,8,0.724
+683,Stony Brook,America East,21,8,0.724
+367,Louisville,ACC,21,8,0.724
+735,Valparaiso,MVC,25,10,0.714
+536,UTRGV,WAC,22,9,0.71
+454,Murray St.,OVC,22,9,0.71
+47,Ball St.,MAC,22,9,0.71
+418,Michigan,Big Ten,22,9,0.71
+706,UTSA,C-USA,19,8,0.704
+352,Lehigh,Patriot,19,8,0.704
+51,Baylor,Big 12,19,8,0.704
+650,South Dakota,Summit League,21,9,0.7
+505,Northern Ky.,Horizon,21,9,0.7
+754,Washington St.,Pac-12,21,9,0.7
+19651,High Point,Big South,21,9,0.7
+295,Idaho,Big Sky,23,10,0.697
+688,Syracuse,ACC,18,8,0.692
+277,Hawaii,Big West,18,8,0.692
+370,LMU (CA),WCC,20,9,0.69
+29,Arizona,Pac-12,22,10,0.688
+648,South Carolina,SEC,19,9,0.679
+234,Florida St.,ACC,19,9,0.679
+740,VCU,Atlantic 10,19,9,0.679
+610,Saint Mary's (CA),WCC,19,9,0.679
+657,Southern California,Pac-12,21,10,0.677
+444,Morehead St.,OVC,21,10,0.677
+96,Fresno St.,MWC,21,10,0.677
+603,St. John's (NY),Big East,23,11,0.676
+794,Green Bay,Horizon,20,10,0.667
+772,Western Ky.,C-USA,20,10,0.667
+811,Wyoming,MWC,20,10,0.667
+290,Howard,MEAC,20,10,0.667
+529,Oregon,Pac-12,20,10,0.667
+2707,UMKC,WAC,21,11,0.656
+1014,Col. of Charleston,CAA,21,11,0.656
+81,Bryant,NEC,22,12,0.647
+651,South Fla.,AAC,20,11,0.645
+758,Weber St.,Big Sky,18,10,0.643
+576,Rider,MAAC,19,11,0.633
+465,UNLV,MWC,19,11,0.633
+71,Bowling Green,MAC,19,11,0.633
+719,Tulsa,AAC,19,11,0.633
+590,Sacred Heart,NEC,17,10,0.63
+361,LIU Brooklyn,NEC,15,9,0.625
+8,Alabama,SEC,20,12,0.625
+86,Buffalo,MAC,18,11,0.621
+66,Boise St.,MWC,18,11,0.621
+204,Eastern Mich.,MAC,21,13,0.618
+231,FIU,C-USA,19,12,0.613
+32,Little Rock,Sun Belt,19,12,0.613
+522,Oklahoma,Big 12,17,11,0.607
+104,UC Santa Barbara,Big West,17,11,0.607
+23,American,Patriot,20,13,0.606
+756,Washington,Pac-12,18,12,0.6
+28600,Lipscomb,ASUN,18,12,0.6
+551,Portland,WCC,18,12,0.6
+340,La Salle,Atlantic 10,18,12,0.6
+189,Drake,MVC,21,14,0.6
+6,Alabama A&M,SWAC,22,15,0.595
+30,Arkansas St.,Sun Belt,19,13,0.594
+30024,Utah Valley,WAC,19,13,0.594
+193,Duke,ACC,16,11,0.593
+630,San Jose St.,MWC,16,11,0.593
+14,Albany (NY),America East,16,11,0.593
+464,Omaha,Summit League,17,12,0.586
+116,Canisius,MAAC,17,12,0.586
+148,Cleveland St.,Horizon,17,12,0.586
+167,Cornell,Ivy League,14,10,0.583
+732,Utah,Pac-12,18,13,0.581
+302,UIC,Horizon,18,13,0.581
+157,Colorado,Pac-12,18,13,0.581
+294,Idaho St.,Big Sky,19,14,0.576
+625,Samford,SoCon,19,14,0.576
+7,Alabama St.,SWAC,23,17,0.575
+456,UNC Asheville,Big South,16,12,0.571
+702,UT Arlington,Sun Belt,16,12,0.571
+627,San Diego,WCC,16,12,0.571
+513,Notre Dame,ACC,16,12,0.571
+109,UC Irvine,Big West,16,12,0.571
+108,UC Davis,Big West,16,12,0.571
+251,Georgetown,Big East,17,13,0.567
+697,Texas A&M,SEC,17,13,0.567
+700,Texas Tech,Big 12,17,13,0.567
+392,Maryland,Big Ten,18,14,0.563
+315,Jacksonville St.,OVC,18,14,0.563
+308,Purdue Fort Wayne,Summit League,18,14,0.563
+698,TCU,Big 12,15,12,0.556
+460,UNCW,CAA,15,12,0.556
+327,Kansas St.,Big 12,15,12,0.556
+328,Kansas,Big 12,15,12,0.556
+406,Mercer,SoCon,16,13,0.552
+678,Stetson,ASUN,16,13,0.552
+311,Iowa St.,Big 12,16,13,0.552
+99,Long Beach St.,Big West,16,13,0.552
+255,Georgia Tech,ACC,17,14,0.548
+147,Clemson,ACC,17,14,0.548
+739,Villanova,Big East,17,14,0.548
+488,N.C. A&T,MEAC,14,12,0.538
+502,Northern Colo.,Big Sky,15,13,0.536
+490,NC State,ACC,15,13,0.536
+371,Loyola Chicago,MVC,16,14,0.533
+792,Winthrop,Big South,16,14,0.533
+774,Western Mich.,MAC,16,14,0.533
+500,Northeastern,CAA,16,14,0.533
+654,Southeast Mo. St.,OVC,16,14,0.533
+664,Southern Miss.,C-USA,17,15,0.531
+721,Air Force,MWC,17,15,0.531
+669,Missouri St.,MVC,17,15,0.531
+711,Towson,CAA,17,15,0.531
+415,Miami (FL),ACC,13,12,0.52
+48,Charleston So.,Big South,13,12,0.52
+257,Georgia,SEC,15,14,0.517
+810,Wright St.,Horizon,15,14,0.517
+458,Charlotte,C-USA,16,15,0.516
+306,Indiana,Big Ten,16,15,0.516
+497,North Texas,C-USA,17,16,0.515
+288,Houston,AAC,17,16,0.515
+416,Michigan St.,Big Ten,17,16,0.515
+127,Central Conn. St.,NEC,13,13,0.5
+671,Louisiana,Sun Belt,15,15,0.5
+67,Boston College,ACC,15,15,0.5
+473,New Mexico,MWC,15,15,0.5
+102,Sacramento St.,Big Sky,16,16,0.5
+61,Bethune-Cookman,MEAC,16,16,0.5
+509,Northwestern,Big Ten,16,16,0.5
+287,Houston Baptist,Southland,16,16,0.5
+164,UConn,AAC,15,16,0.484
+107,California,Pac-12,15,16,0.484
+312,Iowa,Big Ten,15,16,0.484
+386,Marist,MAAC,14,15,0.483
+153,Colgate,Patriot,14,15,0.483
+725,Army West Point,Patriot,14,15,0.483
+110,UCLA,Pac-12,13,14,0.481
+173,Davidson,Atlantic 10,12,13,0.48
+149,Coastal Caro.,Sun Belt,12,13,0.48
+275,Harvard,Ivy League,11,12,0.478
+355,Liberty,ASUN,15,17,0.469
+369,Loyola Maryland,Patriot,14,16,0.467
+220,Fairfield,MAAC,14,16,0.467
+94,CSU Bakersfield,WAC,14,16,0.467
+742,Virginia Tech,ACC,14,16,0.467
+2915,Wofford,SoCon,14,16,0.467
+446,Morgan St.,MEAC,13,15,0.464
+1068,Elon,CAA,13,15,0.464
+9,UAB,C-USA,13,15,0.464
+80,Brown,Ivy League,11,13,0.458
+695,UT Martin,OVC,14,17,0.452
+196,East Carolina,AAC,13,16,0.448
+2,Abilene Christian,Southland,13,16,0.448
+459,UNC Greensboro,SoCon,13,16,0.448
+534,Pacific,WCC,13,16,0.448
+244,Furman,SoCon,13,16,0.448
+469,New Hampshire,America East,12,15,0.444
+508,Northwestern St.,Southland,12,15,0.444
+272,Hartford,America East,11,14,0.44
+28,Arizona St.,Pac-12,14,18,0.438
+433,Ole Miss,SEC,14,18,0.438
+494,North Dakota,Summit League,14,18,0.438
+665,Southern U.,SWAC,13,17,0.433
+646,South Alabama,Sun Belt,13,17,0.433
+782,Wichita St.,AAC,13,17,0.433
+194,Duquesne,Atlantic 10,12,16,0.429
+37,Auburn,SEC,12,16,0.429
+769,Western Caro.,SoCon,12,16,0.429
+663,SMU,AAC,12,16,0.429
+249,George Washington,Atlantic 10,11,15,0.423
+331,Kent St.,MAC,13,18,0.419
+519,Ohio,MAC,13,18,0.419
+248,George Mason,Atlantic 10,10,14,0.417
+158,Columbia,Ivy League,10,14,0.417
+365,LSU,SEC,12,17,0.414
+5,Akron,MAC,11,16,0.407
+10411,USC Upstate,Big South,13,19,0.406
+172,Dartmouth,Ivy League,10,15,0.4
+228,Florida A&M,MEAC,11,17,0.393
+31,Arkansas,SEC,11,17,0.393
+1104,Grand Canyon,WAC,11,17,0.393
+141,The Citadel,SoCon,12,19,0.387
+474,New Orleans,Southland,12,19,0.387
+393,UMES,MEAC,10,16,0.385
+260,Gonzaga,WCC,11,18,0.379
+579,Robert Morris,NEC,11,18,0.379
+165,Coppin St.,MEAC,12,20,0.375
+518,Ohio St.,Big Ten,12,20,0.375
+2743,UIW,Southland,10,17,0.37
+236,Fordham,Atlantic 10,10,17,0.37
+1320,Presbyterian,Big South,10,17,0.37
+514,Oakland,Horizon,10,17,0.37
+498,La.-Monroe,Sun Belt,11,19,0.367
+404,Memphis,AAC,11,19,0.367
+440,Montana St.,Big Sky,11,19,0.367
+768,West Virginia,Big 12,11,19,0.367
+692,Tennessee Tech,OVC,11,19,0.367
+716,Troy,Sun Belt,11,19,0.367
+1356,Seattle U,WAC,11,19,0.367
+599,St. Francis Brooklyn,NEC,10,18,0.357
+115,Campbell,Big South,9,17,0.346
+572,Rhode Island,Atlantic 10,9,17,0.346
+388,Marshall,C-USA,10,19,0.345
+812,Xavier,Big East,10,19,0.345
+503,Northern Ill.,MAC,11,21,0.344
+528,Oregon St.,Pac-12,11,21,0.344
+709,Toledo,MAC,9,18,0.333
+305,Indiana St.,MVC,10,20,0.333
+749,Wake Forest,ACC,10,20,0.333
+635,Seton Hall,Big East,10,20,0.333
+693,Chattanooga,SoCon,10,20,0.333
+17,Alcorn,SWAC,10,20,0.333
+2711,North Florida,ASUN,11,22,0.333
+699,Texas Southern,SWAC,11,22,0.333
+626,San Diego St.,MWC,10,21,0.323
+441,Montana,Big Sky,10,21,0.323
+219,Evansville,MVC,10,21,0.323
+201,Eastern Ill.,OVC,10,21,0.323
+482,Niagara,MAAC,9,19,0.321
+691,Tennessee St.,OVC,9,19,0.321
+527,Oral Roberts,Summit League,9,19,0.321
+180,Delaware,CAA,9,19,0.321
+261,Grambling,SWAC,11,24,0.314
+402,McNeese,Southland,10,22,0.313
+493,North Dakota St.,Summit League,9,20,0.31
+660,SIUE,OVC,9,20,0.31
+629,San Francisco,WCC,9,20,0.31
+562,Quinnipiac,MAAC,9,21,0.3
+2699,IUPUI,Horizon,9,21,0.3
+87,Butler,Big East,9,21,0.3
+26172,A&M-Corpus Christi,Southland,9,21,0.3
+83,Bucknell,Patriot,8,19,0.296
+111,UC Riverside,Big West,8,19,0.296
+270,Hampton,Big South,8,19,0.296
+457,North Carolina,ACC,8,19,0.296
+314,Jackson St.,SWAC,10,24,0.294
+253,Ga. Southern,Sun Belt,9,22,0.29
+101,CSUN,Big West,8,20,0.286
+746,Virginia,ACC,8,20,0.286
+609,Saint Louis,Atlantic 10,8,20,0.286
+285,Holy Cross,Patriot,8,21,0.276
+466,Nevada,MWC,8,21,0.276
+2678,Ark.-Pine Bluff,SWAC,8,21,0.276
+556,Providence,Big East,8,21,0.276
+136,Chicago St.,WAC,9,24,0.273
+254,Georgia St.,Sun Belt,7,19,0.269
+391,UMBC,America East,7,19,0.269
+690,Temple,AAC,8,22,0.267
+797,Milwaukee,Horizon,8,22,0.267
+207,Eastern Wash.,Big Sky,8,22,0.267
+617,Saint Peter's,MAAC,9,25,0.265
+346,Lamar University,Southland,7,20,0.259
+419,Middle Tenn.,C-USA,7,21,0.25
+129,Central Mich.,MAC,7,21,0.25
+1092,Gardner-Webb,Big South,7,22,0.241
+817,Youngstown St.,Horizon,7,22,0.241
+489,N.C. Central,MEAC,6,19,0.24
+540,Penn,Ivy League,6,19,0.24
+553,Prairie View,SWAC,7,25,0.219
+649,South Dakota St.,Summit League,6,23,0.207
+97,Cal St. Fullerton,Big West,6,23,0.207
+366,Louisiana Tech,C-USA,6,23,0.207
+786,William & Mary,CAA,5,20,0.2
+62,Binghamton,America East,5,20,0.2
+667,Southern Utah,Big Sky,6,24,0.2
+631,Santa Clara,WCC,6,24,0.2
+368,UMass Lowell,America East,5,21,0.192
+704,UTEP,C-USA,5,21,0.192
+485,Norfolk St.,MEAC,4,17,0.19
+600,Saint Francis (PA),NEC,5,22,0.185
+587,Rutgers,Big Ten,6,27,0.182
+342,Lafayette,Patriot,5,23,0.179
+202,Eastern Ky.,OVC,5,23,0.179
+14927,Belmont,OVC,5,23,0.179
+731,Utah St.,MWC,5,24,0.172
+316,Jacksonville,ASUN,5,24,0.172
+176,DePaul,Big East,5,24,0.172
+550,Portland St.,Big Sky,5,25,0.167
+432,Mississippi Val.,SWAC,5,26,0.161
+430,Mississippi St.,SEC,5,26,0.161
+659,Southern Ill.,MVC,5,26,0.161
+381,Manhattan,MAAC,5,27,0.156
+632,Savannah St.,MEAC,3,21,0.125
+471,NJIT,ASUN,4,28,0.125
+639,Siena,MAAC,4,28,0.125
+483,Nicholls St.,Southland,3,26,0.103
+771,Western Ill.,Summit League,3,26,0.103
+178,Delaware St.,MEAC,2,27,0.069
+655,Southeastern La.,Southland,2,27,0.069
+222,Fairleigh Dickinson,NEC,2,28,0.067
+647,South Carolina St.,MEAC,1,25,0.038
+30135,California Baptist,WAC,20,11,0.645
+487,North Ala.,ASUN,4,21,0.16

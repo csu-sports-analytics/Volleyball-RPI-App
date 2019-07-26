@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564157566655.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4111977560",
+    "id" : "A87EB637",
+    "lastKnownWriteTime" : 1564159485,
+    "last_content_update" : 1564159485458,
+    "path" : "~/Documents/Volleyball-RPI-App/App/app.R",
+    "project_path" : "App/app.R",
+    "properties" : {
+        "cursorPosition" : "64,18",
+        "scrollLine" : "45"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

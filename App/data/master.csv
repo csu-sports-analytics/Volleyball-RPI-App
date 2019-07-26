@@ -1,0 +1,337 @@
+team_id,team,unmod_rpi
+545,Pittsburgh,0.6737753
+674,Stanford,0.7080831
+77,BYU,0.6709398
+676,SFA,0.5943236
+183,Denver,0.5937809
+90,Cal Poly,0.6218556
+301,Illinois,0.6850604
+128,UCF,0.6627837
+428,Minnesota,0.6739234
+169,Creighton,0.6438645
+334,Kentucky,0.668531
+43,Austin Peay,0.5754496
+703,Texas,0.6903749
+694,Tennessee,0.6116417
+813,Yale,0.5928686
+198,ETSU,0.599108
+670,Texas St.,0.6281167
+387,Marquette,0.6357921
+1004,Central Ark.,0.5509686
+28755,FGCU,0.5825175
+463,Nebraska,0.646851
+235,Florida,0.6261102
+574,Rice,0.6079248
+796,Wisconsin,0.6626456
+299,Illinois St.,0.609339
+140,Cincinnati,0.6227964
+283,Hofstra,0.5774063
+563,Radford,0.5413625
+472,New Mexico St.,0.5836555
+1157,Kennesaw St.,0.5703253
+434,Missouri,0.5988131
+156,Colorado St.,0.5944256
+539,Penn St.,0.6371454
+175,Dayton,0.612772
+501,Northern Ariz.,0.5457801
+554,Princeton,0.5815914
+317,James Madison,0.583887
+718,Tulane,0.5733152
+229,Fla. Atlantic,0.5629076
+726,Navy,0.5552293
+72,Bradley,0.5561895
+559,Purdue,0.6308434
+310,Iona,0.5071846
+414,Miami (OH),0.5707138
+27,Appalachian St.,0.5533452
+624,Sam Houston St.,0.5196436
+504,UNI,0.633904
+541,Pepperdine,0.5979444
+683,Stony Brook,0.5523287
+367,Louisville,0.5946917
+735,Valparaiso,0.570602
+536,UTRGV,0.5616086
+454,Murray St.,0.55104
+47,Ball St.,0.542437
+418,Michigan,0.6278066
+706,UTSA,0.5654099
+352,Lehigh,0.495341
+51,Baylor,0.6261256
+650,South Dakota,0.5381477
+505,Northern Ky.,0.5232184
+754,Washington St.,0.6319853
+19651,High Point,0.5743099
+295,Idaho,0.5238139
+688,Syracuse,0.5971486
+277,Hawaii,0.5756548
+370,LMU (CA),0.5725465
+29,Arizona,0.58474
+648,South Carolina,0.600798
+234,Florida St.,0.6096988
+740,VCU,0.5707205
+610,Saint Mary's (CA),0.5833073
+657,Southern California,0.6488979
+444,Morehead St.,0.4960779
+96,Fresno St.,0.5435086
+603,St. John's (NY),0.5461405
+794,Green Bay,0.525835
+772,Western Ky.,0.5702155
+811,Wyoming,0.5531757
+290,Howard,0.5060443
+529,Oregon,0.616062
+2707,UMKC,0.5545134
+1014,Col. of Charleston,0.5751206
+81,Bryant,0.4804848
+651,South Fla.,0.5490566
+758,Weber St.,0.5251942
+576,Rider,0.4422979
+465,UNLV,0.5292942
+71,Bowling Green,0.5392662
+719,Tulsa,0.5642991
+590,Sacred Heart,0.4728078
+361,LIU Brooklyn,0.4954131
+8,Alabama,0.5647915
+86,Buffalo,0.5289881
+66,Boise St.,0.5239975
+204,Eastern Mich.,0.5160972
+231,FIU,0.537284
+32,Little Rock,0.5467068
+522,Oklahoma,0.5656782
+104,UC Santa Barbara,0.5448815
+23,American,0.5362148
+756,Washington,0.6092514
+28600,Lipscomb,0.5314478
+551,Portland,0.544163
+340,La Salle,0.4979356
+189,Drake,0.5312197
+6,Alabama A&M,0.4519249
+30,Arkansas St.,0.5333581
+30024,Utah Valley,0.5500151
+193,Duke,0.5804536
+630,San Jose St.,0.5237476
+14,Albany (NY),0.4853861
+464,Omaha,0.5029964
+116,Canisius,0.4717346
+148,Cleveland St.,0.5148334
+167,Cornell,0.5198834
+732,Utah,0.5896021
+302,UIC,0.5044577
+157,Colorado,0.5727259
+294,Idaho St.,0.4993461
+625,Samford,0.5290376
+7,Alabama St.,0.4662702
+456,UNC Asheville,0.4892795
+702,UT Arlington,0.520458
+627,San Diego,0.5665202
+513,Notre Dame,0.5687745
+109,UC Irvine,0.5566881
+108,UC Davis,0.5204706
+251,Georgetown,0.5163226
+697,Texas A&M,0.5543152
+700,Texas Tech,0.5552838
+392,Maryland,0.5726667
+315,Jacksonville St.,0.4739552
+308,Purdue Fort Wayne,0.4924855
+698,TCU,0.5577076
+460,UNCW,0.527044
+327,Kansas St.,0.5724348
+328,Kansas,0.5730622
+406,Mercer,0.5010764
+678,Stetson,0.4886063
+311,Iowa St.,0.5660222
+99,Long Beach St.,0.5146039
+255,Georgia Tech,0.5430359
+147,Clemson,0.5373335
+739,Villanova,0.5354272
+488,N.C. A&T,0.4226442
+502,Northern Colo.,0.5198775
+490,NC State,0.5531879
+371,Loyola Chicago,0.5201854
+792,Winthrop,0.4983562
+774,Western Mich.,0.4956019
+500,Northeastern,0.5099642
+654,Southeast Mo. St.,0.4742235
+664,Southern Miss.,0.5076157
+721,Air Force,0.5143356
+669,Missouri St.,0.539462
+711,Towson,0.5237333
+415,Miami (FL),0.5521507
+48,Charleston So.,0.4591645
+257,Georgia,0.5465736
+810,Wright St.,0.4840851
+458,Charlotte,0.4927287
+306,Indiana,0.5587407
+497,North Texas,0.5266025
+288,Houston,0.5175752
+416,Michigan St.,0.5486506
+127,Central Conn. St.,0.4679954
+671,Louisiana,0.496008
+67,Boston College,0.4890317
+473,New Mexico,0.5122331
+102,Sacramento St.,0.4836636
+61,Bethune-Cookman,0.4406105
+509,Northwestern,0.5628339
+287,Houston Baptist,0.4912301
+164,UConn,0.5131072
+107,California,0.5423982
+312,Iowa,0.5498417
+386,Marist,0.4355998
+153,Colgate,0.4971343
+725,Army West Point,0.4813081
+110,UCLA,0.5735282
+173,Davidson,0.4917902
+149,Coastal Caro.,0.5123497
+275,Harvard,0.5033631
+355,Liberty,0.4960591
+369,Loyola Maryland,0.4781259
+220,Fairfield,0.4435778
+94,CSU Bakersfield,0.5082347
+742,Virginia Tech,0.50338
+2915,Wofford,0.5067639
+446,Morgan St.,0.4226369
+1068,Elon,0.4735639
+9,UAB,0.4930395
+80,Brown,0.4522449
+695,UT Martin,0.4803315
+196,East Carolina,0.486407
+2,Abilene Christian,0.4837186
+459,UNC Greensboro,0.4779665
+534,Pacific,0.5205752
+244,Furman,0.4861979
+469,New Hampshire,0.4767094
+508,Northwestern St.,0.4770727
+272,Hartford,0.4166059
+28,Arizona St.,0.5482254
+433,Ole Miss,0.5223194
+494,North Dakota,0.4706833
+665,Southern U.,0.3824748
+646,South Alabama,0.4797459
+782,Wichita St.,0.5512758
+194,Duquesne,0.4624433
+37,Auburn,0.5331646
+769,Western Caro.,0.4539249
+663,SMU,0.5266008
+249,George Washington,0.4658741
+331,Kent St.,0.4516981
+519,Ohio,0.4827812
+248,George Mason,0.4611443
+158,Columbia,0.466201
+365,LSU,0.5418117
+5,Akron,0.4538181
+10411,USC Upstate,0.4237244
+172,Dartmouth,0.4716869
+228,Florida A&M,0.4379414
+31,Arkansas,0.5172784
+1104,Grand Canyon,0.4768323
+141,The Citadel,0.457174
+474,New Orleans,0.4551353
+393,UMES,0.4312482
+260,Gonzaga,0.5047881
+579,Robert Morris,0.4216777
+165,Coppin St.,0.390557
+518,Ohio St.,0.5403809
+2743,UIW,0.4483638
+236,Fordham,0.4400572
+1320,Presbyterian,0.4420787
+514,Oakland,0.4717998
+498,La.-Monroe,0.4470151
+404,Memphis,0.4833354
+440,Montana St.,0.4482729
+768,West Virginia,0.5052724
+692,Tennessee Tech,0.4015101
+716,Troy,0.4550641
+1356,Seattle U,0.4656222
+599,St. Francis Brooklyn,0.3858948
+115,Campbell,0.4513144
+572,Rhode Island,0.4437979
+388,Marshall,0.460369
+812,Xavier,0.4849953
+503,Northern Ill.,0.4582803
+528,Oregon St.,0.4972002
+709,Toledo,0.4436576
+305,Indiana St.,0.4793486
+749,Wake Forest,0.4768403
+635,Seton Hall,0.4781249
+693,Chattanooga,0.4673228
+17,Alcorn,0.3423097
+2711,North Florida,0.4430159
+699,Texas Southern,0.3931327
+626,San Diego St.,0.4715628
+441,Montana,0.4396272
+219,Evansville,0.4672362
+201,Eastern Ill.,0.4460446
+482,Niagara,0.3877378
+691,Tennessee St.,0.4300815
+527,Oral Roberts,0.437423
+180,Delaware,0.4651195
+261,Grambling,0.3643457
+402,McNeese,0.4601719
+493,North Dakota St.,0.4493875
+660,SIUE,0.4474461
+629,San Francisco,0.4768254
+562,Quinnipiac,0.3980262
+2699,IUPUI,0.4371828
+87,Butler,0.473264
+26172,A&M-Corpus Christi,0.4671339
+83,Bucknell,0.380793
+111,UC Riverside,0.4445454
+270,Hampton,0.3976891
+457,North Carolina,0.494235
+314,Jackson St.,0.3654593
+253,Ga. Southern,0.4079984
+101,CSUN,0.4748051
+746,Virginia,0.4551461
+609,Saint Louis,0.4843484
+285,Holy Cross,0.4381628
+466,Nevada,0.4420009
+2678,Ark.-Pine Bluff,0.3830986
+556,Providence,0.4374346
+136,Chicago St.,0.4431354
+254,Georgia St.,0.4163721
+391,UMBC,0.4344348
+690,Temple,0.4968359
+797,Milwaukee,0.4313781
+207,Eastern Wash.,0.3876498
+617,Saint Peter's,0.3707688
+346,Lamar University,0.4077265
+419,Middle Tenn.,0.4241629
+129,Central Mich.,0.4430269
+1092,Gardner-Webb,0.3871484
+817,Youngstown St.,0.3951572
+489,N.C. Central,0.3541079
+540,Penn,0.4248998
+553,Prairie View,0.3531283
+649,South Dakota St.,0.4214162
+97,Cal St. Fullerton,0.3965124
+366,Louisiana Tech,0.3889829
+786,William & Mary,0.4310454
+62,Binghamton,0.3887098
+667,Southern Utah,0.4264405
+631,Santa Clara,0.4515662
+368,UMass Lowell,0.3542997
+704,UTEP,0.4460908
+485,Norfolk St.,0.3340085
+600,Saint Francis (PA),0.4072829
+587,Rutgers,0.4735255
+342,Lafayette,0.3559046
+202,Eastern Ky.,0.4153243
+14927,Belmont,0.4168416
+731,Utah St.,0.44424
+316,Jacksonville,0.4170314
+176,DePaul,0.4330857
+550,Portland St.,0.4120788
+432,Mississippi Val.,0.3133704
+430,Mississippi St.,0.4481761
+659,Southern Ill.,0.454826
+381,Manhattan,0.3482091
+632,Savannah St.,0.3057056
+471,NJIT,0.3406861
+639,Siena,0.348956
+483,Nicholls St.,0.384556
+771,Western Ill.,0.3847072
+178,Delaware St.,0.3168578
+655,Southeastern La.,0.3596428
+222,Fairleigh Dickinson,0.3129315
+647,South Carolina St.,0.292408
+30135,California Baptist,0.5260303
+487,North Ala.,0.3844717
