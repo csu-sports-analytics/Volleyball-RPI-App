@@ -9,6 +9,7 @@
 
 library(shiny)
 library(tidyverse)
+library(DT)
 
 ## Setup
 
@@ -16,7 +17,10 @@ master_team_list <- read.csv("data/master.csv", header = T, stringsAsFactors = F
   arrange(.,team)
 full_schedules <- read.csv("data/full_schedules.csv", header = T, stringsAsFactors = F) %>%
   mutate(., date = lubridate::mdy(date)) %>%
-  filter(., date < '2018-11-30')
+  filter(., date < '2018-11-30') #%>%
+  #group_by(., team_id) %>%
+  #mutate(., index = row_number()) %>%
+  #ungroup(.)
 
 ## Functions
 
@@ -36,7 +40,9 @@ ui <- fluidPage(
          
          uiOutput("selected_game_replace"),
          
-         selectInput("selected_team_replace", "Choose new opponent", master_team_list$team),
+         uiOutput("selected_date_replace"),
+         
+         selectInput("selected_team_new", "Choose new opponent", master_team_list$team),
          
          selectInput("win_lose", "Win or Lose", c("W", "L")),
          
@@ -58,19 +64,33 @@ server <- function(input, output) {
 
     start_team_id <- filter(master_team_list, team == input$start_team)$team_id
     
-    team_schedule <- filter(full_schedules, team_id == start_team_id) #%>%
-      #mutate(., date = lubridate::mdy(date))
+    team_schedule <- filter(full_schedules, team_id == start_team_id) %>%
+      mutate(., date = paste(date))
     
-    #team_schedule
-    full_schedules %>%
-      filter(., team_id == start_team_id)
+    team_schedule$team_id <- NULL
+    team_schedule$org_id <- NULL
+    team_schedule$location <- NULL
+    
+    team_schedule
   })
   
   output$selected_game_replace <- renderUI({
     
     start_team_id <- filter(master_team_list, team == input$start_team)$team_id
     
-    selectInput("game_to_replace", "Choose a game to replace", filter(full_schedules, team_id == start_team_id)$date, selected = NULL)
+    selectInput("game_to_replace", "Choose a game to replace", filter(full_schedules, team_id == start_team_id)$opponent, selected = NULL)
+    
+  })
+  
+  output$selected_date_replace <- renderUI({
+    
+    start_team_id <- filter(master_team_list, team == input$start_team)$team_id
+    
+    list_of_opponent_dates <- full_schedules %>%
+      filter(., team_id == start_team_id) %>%
+      filter(., opponent == input$game_to_replace)
+    
+    selectInput("date_of_game_replaced", "Pick a date", list_of_opponent_dates$date)
     
   })
   
@@ -80,6 +100,10 @@ server <- function(input, output) {
     
     
     paste0("Unmodified RPI before: ", rpi_before, "\n", "Unmodified RPI after: ", "rpi_recalculated")
+    
+  })
+  
+  output$DEBUG <- renderText({
     
   })
   

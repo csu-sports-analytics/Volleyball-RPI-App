@@ -1,0 +1,6 @@
+full_schedules <- read.csv("App/data/full_schedules.csv", header = T, stringsAsFactors = F) %>%
+  mutate(., date = lubridate::mdy(date)) %>%
+  filter(., date < '2018-11-30') %>%
+  group_by(., team_id) %>%
+  summarise(., ngames = n()) %>%
+  ungroup(.)
