@@ -27,7 +27,12 @@ full_schedules <- read.csv("data/full_schedules.csv", header = T, stringsAsFacto
 recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_replace, new_game, result) {
   
   schedule <- filter(full_schedules, team_id == start_team_id)
-  schedule_minus_game <- filter(schedule, date == date_of_game_to_replace & team == game_to_replace)
+  game_to_remove <- filter(schedule, date == date_of_game_to_replace) %>%
+    filter(., opponent == game_to_replace)
+  
+  game_to_remove
+  
+  schedule_minus_game <- schedule[!game_to_remove]
   
   schedule_minus_game
   
@@ -97,14 +102,16 @@ server <- function(input, output) {
     team_schedule$org_id <- NULL
     team_schedule$location <- NULL
     
-    team_schedule
+    #team_schedule
     
     team_id <- filter(master_team_list, team == input$start_team)$team_id
     game_to_replace <- input$game_to_replace
     date_of_game_replaced <- input$date_of_game_replaced
     selected_team_new <- input$selected_team_new
     result <- input$win_lose
-    recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result)
+
+    recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result) %>%
+      mutate(., date = paste(date))
   })
   
   output$selected_game_replace <- renderUI({
@@ -137,7 +144,7 @@ server <- function(input, output) {
     selected_team_new <- input$selected_team_new
     result <- input$win_lose
     
-    paste0("Unmodified RPI before: ", rpi_before, "\n", "Unmodified RPI after: ", game_to_replace, date_of_game_replaced, selected_team_new, result ,"recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result)")
+    paste0("Unmodified RPI before: ", rpi_before, "\n", "Unmodified RPI after: ", "testing")
     
   })
   

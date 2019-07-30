@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564515951712.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "38005548",
+    "lastKnownWriteTime" : 35875208,
+    "last_content_update" : 1564515951712,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3992CAED",
+        "caption" : "team_schedule",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=team_schedule&cache_key=3992CAED",
+        "displayedObservations" : 30,
+        "environment" : "",
+        "object" : "team_schedule",
+        "preview" : 0,
+        "totalObservations" : 30,
+        "variables" : 7
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
