@@ -12,15 +12,15 @@
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "3EFF0EF5",
+        "cacheKey" : "E4522E73",
         "caption" : "master_team_list",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=master_team_list&cache_key=3EFF0EF5",
-        "displayedObservations" : 336,
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=master_team_list&cache_key=E4522E73",
+        "displayedObservations" : "336",
         "environment" : "",
         "object" : "master_team_list",
-        "preview" : 0,
-        "totalObservations" : 336,
-        "variables" : 3
+        "preview" : "0",
+        "totalObservations" : "336",
+        "variables" : "3"
     },
     "relative_order" : 3,
     "source_on_save" : false,

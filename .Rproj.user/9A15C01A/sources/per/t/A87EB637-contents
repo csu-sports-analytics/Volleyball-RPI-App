@@ -24,6 +24,32 @@ full_schedules <- read.csv("data/full_schedules.csv", header = T, stringsAsFacto
 
 ## Functions
 
+recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_replace, new_game, result) {
+  
+  schedule <- filter(full_schedules, team_id == start_team_id)
+  schedule_minus_game <- filter(schedule, date == date_of_game_to_replace & team == game_to_replace)
+  
+  schedule_minus_game
+  
+}
+
+win_pct <- function(team_id, game_to_replace, date_of_game_to_replace, new_game){
+  
+  
+}
+
+opp_win_pct <- function(list_team_id){
+  
+  opp_schedule <- filter(full_schedules, team_id == list_team_id)
+  
+  
+}
+
+opp_opp_win_pct <- function(){
+  
+  
+}
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -72,6 +98,13 @@ server <- function(input, output) {
     team_schedule$location <- NULL
     
     team_schedule
+    
+    team_id <- filter(master_team_list, team == input$start_team)$team_id
+    game_to_replace <- input$game_to_replace
+    date_of_game_replaced <- input$date_of_game_replaced
+    selected_team_new <- input$selected_team_new
+    result <- input$win_lose
+    recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result)
   })
   
   output$selected_game_replace <- renderUI({
@@ -98,8 +131,13 @@ server <- function(input, output) {
     
     rpi_before <- filter(master_team_list, team == input$start_team)$unmod_rpi
     
+    team_id <- filter(master_team_list, team == input$start_team)$team_id
+    game_to_replace <- input$game_to_replace
+    date_of_game_replaced <- input$date_of_game_replaced
+    selected_team_new <- input$selected_team_new
+    result <- input$win_lose
     
-    paste0("Unmodified RPI before: ", rpi_before, "\n", "Unmodified RPI after: ", "rpi_recalculated")
+    paste0("Unmodified RPI before: ", rpi_before, "\n", "Unmodified RPI after: ", game_to_replace, date_of_game_replaced, selected_team_new, result ,"recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result)")
     
   })
   
