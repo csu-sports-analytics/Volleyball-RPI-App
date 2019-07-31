@@ -24,34 +24,25 @@ full_schedules <- read.csv("data/full_schedules.csv", header = T, stringsAsFacto
 
 ## Functions
 
+# make two functions: one for unmodified RPI with original schedule, one for unmodified with "new" schedule.
+
 recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_replace, new_game, result) {
   
-  schedule <- filter(full_schedules, team_id == start_team_id)
+  schedule <- filter(full_schedules, team_id == start_team_id) %>%
+    mutate(., date = paste(date))
   game_to_remove <- filter(schedule, date == date_of_game_to_replace) %>%
-    filter(., opponent == game_to_replace)
+    filter(., opponent == game_to_replace) %>%
+    mutate(., date = paste(date))
   
   game_to_remove
-  
-  schedule_minus_game <- schedule[!game_to_remove]
-  
+
+  schedule_minus_game <- schedule[!c(game_to_remove[1],game_to_remove[2],game_to_remove[3],game_to_remove[4],game_to_remove[5],game_to_remove[6],game_to_remove[7])]
+
   schedule_minus_game
   
 }
 
-win_pct <- function(team_id, game_to_replace, date_of_game_to_replace, new_game){
-  
-  
-}
-
-opp_win_pct <- function(list_team_id){
-  
-  opp_schedule <- filter(full_schedules, team_id == list_team_id)
-  
-  
-}
-
-opp_opp_win_pct <- function(){
-  
+calculate_rpi <- function(start_team_id){
   
 }
 
@@ -102,8 +93,8 @@ server <- function(input, output) {
     team_schedule$org_id <- NULL
     team_schedule$location <- NULL
     
-    #team_schedule
-    
+    team_schedule
+
     team_id <- filter(master_team_list, team == input$start_team)$team_id
     game_to_replace <- input$game_to_replace
     date_of_game_replaced <- input$date_of_game_replaced
@@ -137,6 +128,8 @@ server <- function(input, output) {
   output$rpi_calculated <- renderText({
     
     rpi_before <- filter(master_team_list, team == input$start_team)$unmod_rpi
+    # Once calculate_rpi() is working, this line will replace the hard coded rpi.
+    #rpi_before <- calculate_rpi(filter(master_team_list, team == input$start_team)$team_id)
     
     team_id <- filter(master_team_list, team == input$start_team)$team_id
     game_to_replace <- input$game_to_replace
