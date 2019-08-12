@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565573555897.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D70C2EEA",
+    "lastKnownWriteTime" : 1564722024,
+    "last_content_update" : 1565573555897,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "785ADD1B",
+        "caption" : "schedule_minus_game",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=schedule_minus_game&cache_key=785ADD1B",
+        "displayedObservations" : "29",
+        "environment" : "",
+        "object" : "schedule_minus_game",
+        "preview" : "0",
+        "totalObservations" : "29",
+        "variables" : "8"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

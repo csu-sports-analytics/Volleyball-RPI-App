@@ -36,7 +36,8 @@ recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_repl
   
   game_to_remove
 
-  schedule_minus_game <- schedule[!c(game_to_remove[1],game_to_remove[2],game_to_remove[3],game_to_remove[4],game_to_remove[5],game_to_remove[6],game_to_remove[7])]
+  schedule_minus_game <- schedule %>% 
+    filter(., . != game_to_remove)
 
   schedule_minus_game
   
@@ -101,8 +102,8 @@ server <- function(input, output) {
     selected_team_new <- input$selected_team_new
     result <- input$win_lose
 
-    recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result) %>%
-      mutate(., date = paste(date))
+    recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result) #%>%
+      #mutate(., date = paste(date))
   })
   
   output$selected_game_replace <- renderUI({
