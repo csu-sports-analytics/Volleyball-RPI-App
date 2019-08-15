@@ -4,3 +4,4 @@ full_schedules <- read.csv("App/data/full_schedules.csv", header = T, stringsAsF
   group_by(., team_id) %>%
   summarise(., ngames = n()) %>%
   ungroup(.)
+

@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1564772805964.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3409790413",
+    "hash" : "0",
     "id" : "D6D15AFA",
     "lastKnownWriteTime" : 1565578563,
-    "last_content_update" : 1565578563565,
+    "last_content_update" : 1565897565889,
     "path" : "~/Documents/Volleyball-RPI-App/App/app_gibbs.R",
     "project_path" : "App/app_gibbs.R",
     "properties" : {
-        "cursorPosition" : "139,31",
-        "scrollLine" : "123"
+        "cursorPosition" : "34,2",
+        "scrollLine" : "17"
     },
     "relative_order" : 2,
     "source_on_save" : false,

@@ -32,6 +32,8 @@ recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_repl
     filter(., team_id == start_team_id,
            !(opponent == game_to_replace & date == date_of_game_to_replace))
   
+  
+  
   opponents <- schedule_minus_game$org_id
   
   opp_schedules <- opp_schedules <- full_schedules %>%
