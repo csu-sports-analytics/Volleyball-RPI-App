@@ -14,6 +14,8 @@ library(lubridate)
 #-------------------------------------------------------------------------------
 # SETUP
 #-------------------------------------------------------------------------------
+options(shiny.fullstacktrace = TRUE)
+
 master_team_list <- read.csv("data/master.csv", header = T, stringsAsFactors = F) %>%
   arrange(., team)
 
@@ -99,7 +101,7 @@ recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_repl
             location = "",
             result = des_result,
             score = "",
-            uni_id = "") %>%
+            uni_id = NULL) %>%
     select(., org_id, uni_id)
   
   team_sch <- full_schedules %>%
@@ -109,12 +111,14 @@ recalculate_rpi <- function(start_team_id, game_to_replace, date_of_game_to_repl
   opp_sch <- NULL
   opp_opp_sch <- NULL
   
+  
   for(i in seq(1:nrow(list_opp))){
     opp_sch <- rbind(opp_sch, full_schedules %>%
                        filter(., team_id == list_opp[i,1],
-                              uni_id != list_opp[i,2]) %>%
+                              as.integer(uni_id) != list_opp[i,2]) %>%
                        select(., team_id, org_id, result))
   }
+  
   
   for(i in seq(1:nrow(list_opp))){
     
@@ -226,6 +230,7 @@ shinyServer(function(input, output) {
       
       rpi_before <- calculate_rpi(team_id)
       rpi_after <- recalculate_rpi(team_id, game_to_replace, date_of_game_replaced, selected_team_new, result)
+      #rpi_after <- 1.123456789
       
       HTML(
         paste0("Before: ", round(rpi_before, 8), "<br/>", 
@@ -243,7 +248,7 @@ shinyServer(function(input, output) {
       
       HTML(
         paste0("Before: ", round(rpi_before, 4), "<br/>", 
-               "After: ", "round(rpi_after, 4)", "<br/>")
+               "After: ", "None", "<br/>")
       )
     }
   )
